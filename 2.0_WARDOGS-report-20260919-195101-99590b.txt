@@ -1,0 +1,128 @@
+﻿WARDOGS + zapret AUTO 2.0 — локальная диагностика
+Обновлено: 2026-09-19T19:55:55.0335599+03:00
+Состояние: Stopped
+Физическое подключение: Беспроводная сеть; ifIndex 9
+Прокси WinHTTP до запуска: 1||
+Сброшен недоступный локальный WinHTTP proxy: False
+Пользовательский прокси WinINET включён: False (не изменялся)
+Виртуальные активные подключения: Radmin VPN
+VPN не отключался. Проверки отражают текущую маршрутизацию, включая VPN, если он её перехватывает.
+DNS cache: Cleared; адреса DNS-серверов не менялись.
+TCP timestamps: Enabled (не изменялись)
+Общий профиль: EXP; WARDOGS: ALT9
+Метод выбора: 21 strategies + direct; separate group ranking; top two rechecked
+HTTP 4xx/5xx означает ответ сервиса, но не успешный вход в игру. HTTP 403/429/451 снижает рейтинг.
+Ошибка DNS/TLS/тайм-аут сама по себе не доказывает блокировку провайдером. Сбой сервиса и ограничения по IP также возможны.
+Проверка не авторизуется в аккаунте и не доказывает работу матча, Discord voice или Vivox.
+HTTPS: хост | до: HTTP/curl | после: HTTP/curl | IP после
+api.epicgames.dev | 404/0 | 404/0 | 104.18.124.108
+firstlook.gg | 403/0 | 403/0 | 104.26.2.236
+discord.media | 520/0 | 520/0 | 162.159.129.235
+discord.com | 0/28 | 200/0 | 162.159.138.232
+gateway.discord.gg | 0/28 | 404/0 | 162.159.136.234
+cdn.discordapp.com | 0/28 | 403/0 | 162.159.130.233
+updates.discord.com | 0/28 | 404/0 | 162.159.138.232
+dns.google | 206/0 | 206/0 | 8.8.4.4
+www.microsoft.com | 206/0 | 206/0 | 2.23.90.89
+www.youtube.com | 0/28 | 200/0 | 142.251.151.4
+doh.cleanbrowsing.org | 301/0 | 301/0 | 185.228.168.168
+doh.opendns.com | 404/0 | 404/0 | 146.112.41.2
+i.ytimg.com | 0/28 | 404/0 | 142.250.150.119
+wikimedia-dns.org | 200/0 | 200/0 | 185.71.138.138
+cloudflare-ech.com | 301/0 | 301/0 | 8.6.112.0
+dns.quad9.net | 505/0 | 505/0 | 149.112.112.112
+cloudflareaccess.com | 404/0 | 404/0 | 104.19.194.29
+encryptedsni.com | 301/0 | 301/0 | 8.6.112.0
+cloudflareapps.com | 0/6 | 0/6 | 
+cloudflarebolt.com | 0/6 | 0/6 | 
+cloudflareinsights.com | 200/0 | 200/0 | 104.16.79.73
+cloudflareclient.com | 522/0 | 523/0 | 8.6.112.0
+redirector.googlevideo.com | 0/28 | 404/0 | 173.194.221.198
+cloudflareok.com | 404/0 | 404/0 | 104.18.15.229
+cloudflarepartners.com | 0/6 | 0/6 | 
+cloudflareportal.com | 404/0 | 404/0 | 104.17.230.184
+cloudflarepreview.com | 403/0 | 403/0 | 104.18.8.106
+cloudflareresolve.com | 0/6 | 0/6 | 
+cloudflaressl.com | 0/35 | 0/35 | 172.66.164.120
+cloudflarestatus.com | 301/0 | 301/0 | 35.201.124.30
+cloudflaretest.com | 0/6 | 0/6 | 
+cloudflarestream.com | 200/0 | 200/0 | 104.16.96.114
+cloudfront.net | 0/6 | 0/6 | 
+dis.gd | 302/0 | 302/0 | 8.6.112.0
+discord.app | 206/0 | 206/0 | 185.104.29.88
+discord.co | 301/0 | 301/0 | 104.17.117.93
+discord.design | 302/0 | 302/0 | 104.21.80.173
+game.live.wardogs.bulkhead.pragmaengine.com | 0/-1 | 0/28 | 54.195.197.193
+social.live.wardogs.bulkhead.pragmaengine.com | 0/-1 | 0/28 | 34.253.132.95
+discord.dev | 301/0 | 301/0 | 172.67.155.163
+discord.gift | 301/0 | 301/0 | 172.67.222.182
+discord.gifts | 302/0 | 302/0 | 188.114.97.0
+discord.gg | 301/0 | 301/0 | 162.159.136.234
+discord.status | 0/6 | 0/6 | 
+discord.new | 301/0 | 301/0 | 188.114.97.0
+discord-activities.com | 0/6 | 0/6 | 
+discord.store | 200/0 | 200/0 | 23.227.38.74
+discord-attachments-uploads-prd.storage.googleapis.com | 0/28 | 403/0 | 64.233.161.207
+discordactivities.com | 530/0 | 530/0 | 172.64.155.82
+discordapp.net | 0/6 | 0/6 | 
+discordpartygames.com | 0/6 | 0/6 | 
+discordcdn.com | 403/0 | 403/0 | 162.159.129.234
+discordsays.com | 302/0 | 302/0 | 172.64.153.7
+discordsez.com | 302/0 | 302/0 | 8.6.112.0
+discordmerch.com | 200/0 | 200/0 | 23.227.38.74
+cloudflarestorage.com | 0/28 | 0/28 | 104.16.94.115
+ffzap.com | 206/0 | 206/0 | 104.21.65.195
+dns.nextdns.io | 0/-1 | 0/-1 | 
+betterttv.net | 302/0 | 302/0 | 8.6.112.0
+discordapp.com | 0/28 | 301/0 | 162.159.130.233
+7tv.io | 200/0 | 0/28 | 95.217.169.88
+freedns.controld.com | 0/-1 | 0/-1 | 
+localizeapi.com | 0/6 | 0/6 | 
+cloudflare-dns.com | 0/-1 | 0/-1 | 
+discordstatus.com | 0/28 | 0/28 | 13.33.235.17
+zendesk.com | 0/28 | 301/0 | 216.198.54.2
+frankerfacez.com | 0/28 | 301/0 | 104.26.7.201
+jnn-pa.googleapis.com | 404/0 | 404/0 | 172.217.117.4
+7tv.app | 0/28 | 0/28 | 65.109.41.220
+yt3.ggpht.com | 0/28 | 400/0 | 173.194.221.198
+yt4.ggpht.com | 0/28 | 400/0 | 172.253.130.132
+yt3.googleusercontent.com | 0/28 | 400/0 | 108.177.14.132
+googlevideo.com | 0/28 | 0/60 | 209.85.233.99
+stable.dl2.discordapp.net | 0/28 | 404/0 | 34.126.226.51
+klipy.com | 200/28 | 200/63 | 104.18.8.73
+wide-youtube.l.google.com | 0/28 | 0/60 | 173.194.221.198
+youtube-nocookie.com | 0/28 | 0/60 | 173.194.222.93
+youtube-ui.l.google.com | 0/28 | 0/60 | 173.194.221.198
+yt-video-upload.l.google.com | 0/60 | 0/60 | 64.233.161.117
+ytimg.com | 0/6 | 0/6 | 
+ytimg.l.google.com | 0/60 | 0/60 | 173.194.222.101
+youtube.com | 0/28 | 301/0 | 173.194.221.91
+google.ru | 301/0 | 301/0 | 108.177.14.94
+youtubeembeddedplayer.googleapis.com | 0/28 | 404/0 | 172.217.112.4
+youtubekids.com | 0/28 | 301/0 | 173.194.222.190
+youtube.googleapis.com | 0/28 | 404/0 | 172.217.114.4
+youtubei.googleapis.com | 0/28 | 405/0 | 172.217.118.4
+live-video.net | 0/-1 | 0/28 | 3.164.68.38
+youtu.be | 0/28 | 303/0 | 209.85.233.93
+play.google.com | 0/28 | 302/0 | 173.194.221.138
+Vivox passthrough: 85.236.96.0/21, 85.236.104.0/23
+Наблюдаемые Vivox/DNS IP: 
+Временные маршруты Vivox: 
+Источник Vivox: https://support.unity.com/hc/en-us/articles/4407491745940-Vivox-What-IPs-and-ports-are-required-for-Vivox-to-work
+UDP 4192: включён изначально. Дополнительные записи применяются только к конкретному IP + порту.
+Пакетов UDP на физическом интерфейсе замечено: 265
+Game flow: 172.67.177.65:443 protocol=6 out=0 in=0
+Game flow: 127.0.0.1:55726 protocol=6 out=0 in=0
+Game flow: 127.0.0.1:55727 protocol=6 out=0 in=0
+Game flow: 104.18.124.108:443 protocol=6 out=0 in=0
+Game flow: 127.0.0.1:55732 protocol=6 out=0 in=0
+Game flow: 127.0.0.1:55733 protocol=6 out=0 in=0
+Game flow: 127.0.0.1:55734 protocol=6 out=0 in=0
+Game flow: 127.0.0.1:55735 protocol=6 out=0 in=0
+Game flow: 54.195.197.193:443 protocol=6 out=0 in=0
+Game flow: 54.195.197.193:443 protocol=6 out=0 in=0
+Game flow: 54.195.197.193:443 protocol=6 out=0 in=0
+Game flow: 54.195.197.193:443 protocol=6 out=0 in=0
+Метаданные UDP без ответов — повод попробовать правило, а не доказательство блокировки. IPv6 и неразличимые через VPN потоки автоматически не настраиваются.
+Для остановки нажмите Q в окне запуска. Guardian восстанавливает настройки и при закрытии окна крестиком. После отключения питания восстановление WinHTTP выполняется при следующем запуске.
+2026-09-19T19:55:55.2510544+03:00 Временные настройки восстановлены.
