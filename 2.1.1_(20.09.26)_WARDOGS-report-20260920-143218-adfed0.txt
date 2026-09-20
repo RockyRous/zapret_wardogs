@@ -1,0 +1,64 @@
+﻿WARDOGS + zapret AUTO 2.1.1 — локальная диагностика
+Обновлено: 2026-09-20T14:34:46.1966856+03:00
+Состояние: Stopped
+Физическое подключение: Беспроводная сеть; ifIndex 9
+Прокси WinHTTP до запуска: 1||
+Сброшен недоступный локальный WinHTTP proxy: False
+Пользовательский прокси WinINET включён: False (не изменялся)
+Виртуальные активные подключения: Radmin VPN
+VPN не отключался. Новый подбор закрепляет сокеты за физическим интерфейсом и засчитывает только TLS/HTTP с пакетами в обе стороны на нём.
+Выбор при запуске: Reuse. Происхождение профиля: Manual overrides: Game=ALT11; historical probes may refer to other profiles
+DNS cache: Cleared; адреса DNS-серверов не менялись.
+TCP timestamps: Enabled; временное изменение: False
+Общий профиль: ALT9; WARDOGS: ALT11
+Метод выбора: User chose reuse; no probes and no automatic retest
+HTTP 4xx/5xx означает ответ сервиса, но не успешный вход в игру. HTTP 403/429/451 и 5xx снижают рейтинг.
+Ошибка DNS/TLS/тайм-аут сама по себе не доказывает блокировку провайдером. Сбой сервиса и ограничения по IP также возможны.
+Проверка не авторизуется в аккаунте и не доказывает работу матча, Discord voice или Vivox.
+Клиент: Steam build Unknown; обновлён UTC Unknown; версия файла Unknown
+Разрешения микрофона Windows: Allow; настольные приложения: Allow (только чтение)
+Диагностика только читает метаданные клиента и разрешения микрофона. Unknown означает, что значение недоступно; это не подтверждение неисправности.
+WD-L*/Elytra и сбои до появления игры требуют отдельной проверки: https://steamcommunity.com/app/1867240/discussions/3/562541634873810804/
+При подключённом голосовом чате без звука проверьте устройство, разрешения и настройки игры: https://support.unity.com/hc/en-us/articles/7942576778388-Vivox-Player-Troubleshooting-Guide
+Разрешение микрофона не подтверждает его исправность или доступность Vivox. Проверка не включает запись звука.
+HTTPS: хост | до: HTTP/проверка | после: HTTP/проверка | IP после | физический путь
+Vivox passthrough: 85.236.96.0/21, 85.236.104.0/23
+Наблюдаемые Vivox/DNS IP: 
+Временные маршруты игры/Vivox: 
+Маршруты отложены до закрытия соединений: 
+Маршруты создаются заново через локальный Wi-Fi/Ethernet. Шлюзы и маршруты VPN не копируются.
+DNS Game: game.live.wardogs.bulkhead.pragmaengine.com -> 54.195.80.205,54.228.212.233,52.18.67.81,52.214.225.75,18.200.11.201,108.133.176.169,63.32.19.178,52.208.216.115; до 2026-09-20T11:37:19.5434616Z
+DNS Game: social.live.wardogs.bulkhead.pragmaengine.com -> 54.195.197.193,63.32.19.178,18.200.11.201,54.228.212.233,108.133.176.169,99.80.48.79,108.133.212.93,54.195.80.205; до 2026-09-20T11:37:19.5434616Z
+DNS Game: firstlook.gg -> 8.6.112.0,8.47.69.0; до 2026-09-20T11:37:19.5434616Z
+DNS Game: api.epicgames.dev -> 104.18.125.108,104.18.124.108; до 2026-09-20T11:37:19.5434616Z
+Источник Vivox: https://support.unity.com/hc/en-us/articles/4407491745940-Vivox-What-IPs-and-ports-are-required-for-Vivox-to-work
+В подготовленном пуле UDP 4192 включён изначально. За его пределами новые правила ограничены конкретным IP и портом. При GameServerPool=false используется прежнее общее правило 4192.
+Подготовленный пул серверов: 54.115.0.0/16; UDP 1024-65535. Внутри пула правило действует до первого подключения; обучение отдельным IP и портам не требуется. Это диапазон AWS, не доказанный эксклюзив WARDOGS.
+Пакетов UDP/TCP на физическом интерфейсе замечено: 4257
+Game flow: 127.0.0.1:64425 protocol=6 out=0 in=0; peer-out=0 peer-in=0
+Game flow: 127.0.0.1:64426 protocol=6 out=0 in=0; peer-out=0 peer-in=0
+Game flow: 104.18.125.108:443 protocol=6 out=128 in=0; peer-out=0 peer-in=0
+Game flow: 127.0.0.1:64434 protocol=6 out=0 in=0; peer-out=0 peer-in=0
+Game flow: 127.0.0.1:64435 protocol=6 out=0 in=0; peer-out=0 peer-in=0
+Game flow: 127.0.0.1:64436 protocol=6 out=0 in=0; peer-out=0 peer-in=0
+Game flow: 127.0.0.1:64437 protocol=6 out=0 in=0; peer-out=0 peer-in=0
+Game flow: 54.195.80.205:443 protocol=6 out=128 in=0; peer-out=0 peer-in=0
+Game flow: 54.195.80.205:443 protocol=6 out=128 in=0; peer-out=0 peer-in=0
+Game flow: 104.18.125.108:443 protocol=6 out=128 in=0; peer-out=0 peer-in=0
+Game flow: 104.18.125.108:443 protocol=6 out=128 in=0; peer-out=0 peer-in=0
+Game flow: 104.18.125.108:443 protocol=6 out=128 in=0; peer-out=0 peer-in=0
+Game flow: 127.0.0.1:54683 protocol=6 out=0 in=0; peer-out=0 peer-in=0
+Game flow: 127.0.0.1:54684 protocol=6 out=0 in=0; peer-out=0 peer-in=0
+Game flow: 127.0.0.1:54685 protocol=6 out=0 in=0; peer-out=0 peer-in=0
+Game flow: 127.0.0.1:54686 protocol=6 out=0 in=0; peer-out=0 peer-in=0
+Game flow: 99.80.48.79:443 protocol=6 out=164 in=0; peer-out=0 peer-in=0
+Game flow: 99.80.48.79:443 protocol=6 out=164 in=0; peer-out=0 peer-in=0
+Game flow: 127.0.0.1:54692 protocol=6 out=0 in=0; peer-out=0 peer-in=0
+Game flow: 127.0.0.1:54693 protocol=6 out=0 in=0; peer-out=0 peer-in=0
+Game flow: 104.18.125.108:443 protocol=6 out=128 in=0; peer-out=0 peer-in=0
+Game flow: 104.18.125.108:443 protocol=6 out=91 in=0; peer-out=0 peer-in=0
+Счётчики game flow относятся только к физическому интерфейсу. 0/0 не подтверждает ни блокировку, ни работу без VPN; приложение может идти через перехватчик.
+peer-out/peer-in: физические UDP-пакеты к тому же серверу с другим локальным портом, если наблюдалось ровно одно активное игровое соединение с ним. Это более слабое сопоставление: принадлежность пакетов процессу не доказана. Ответы запрещают пробное правило; без ответов требуется не менее 6 исходящих пакетов.
+Метаданные UDP без ответов — повод попробовать правило, а не доказательство блокировки. IPv6 и неразличимые через VPN потоки автоматически не настраиваются.
+Для остановки нажмите Q в окне запуска. Guardian восстанавливает настройки и при закрытии окна крестиком. После отключения питания восстановление WinHTTP выполняется при следующем запуске.
+2026-09-20T14:34:46.3252875+03:00 Временные настройки восстановлены.
